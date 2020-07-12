@@ -11,3 +11,6 @@ Train a hugginface model,
 Compares the translator api of gcp and azure
 
 ## Installing
+* pip install -r requirements.txt or conda install --file requirements.txt
+
+## How to run
