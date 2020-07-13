@@ -14,3 +14,7 @@ Compares the translator api of gcp and azure
 * pip install -r requirements.txt or conda install --file requirements.txt
 
 ## How to run
+* Use python run.py
+* All files must be in the same folder.
+
+## KEYS
