@@ -22,3 +22,6 @@ Compares the translator api of gcp and azure
 * In the case of AZURE you only need to copy the key obtained in the "keys and connection point" section that is in run.py.
 
 ![Captura](https://user-images.githubusercontent.com/96556497/205465519-a1a1828c-76e6-4e8b-b115-3a97d6b11ef1.PNG)
+
+## Graphs of task 2
+![graficas](https://user-images.githubusercontent.com/96556497/201457658-1ef9e4ca-954f-47fe-b70c-ce0e4d329f7d.PNG)
