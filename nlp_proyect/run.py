@@ -12,3 +12,5 @@ if __name__ == '__main__':
     print("Task 2: Take a basic, pretrained NER model, and train further on a task-specific dataset")
     samples_train = 300
     samples_test = 30
+    task_2 = model_trainer(samples_test, samples_train)
+    task_2.main()
