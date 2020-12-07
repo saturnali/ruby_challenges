@@ -14,3 +14,8 @@ if __name__ == '__main__':
     samples_test = 30
     task_2 = model_trainer(samples_test, samples_train)
     task_2.main()
+    task_2.graphic_model()
+    print("-----------END------------")
+    print("Task 3:Set up and compare model performance of two different translation models")
+    lang1_set = 'nlp_proyect/en_corpus.txt'
+    lang2_set = 'nlp_proyect/es_corpus.txt'
