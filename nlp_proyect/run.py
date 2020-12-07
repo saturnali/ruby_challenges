@@ -21,3 +21,6 @@ if __name__ == '__main__':
     lang2_set = 'nlp_proyect/es_corpus.txt'
     lang_from = 'en'
     lang_to = 'es'
+    cod_key = 'keyAzure'
+    cod_region = 'zoneAzure'
+    gcp_keys = 'nlp_proyect/private_key.json'
