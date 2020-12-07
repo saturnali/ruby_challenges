@@ -19,3 +19,5 @@ if __name__ == '__main__':
     print("Task 3:Set up and compare model performance of two different translation models")
     lang1_set = 'nlp_proyect/en_corpus.txt'
     lang2_set = 'nlp_proyect/es_corpus.txt'
+    lang_from = 'en'
+    lang_to = 'es'
