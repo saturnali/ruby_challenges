@@ -24,3 +24,6 @@ if __name__ == '__main__':
     cod_key = 'keyAzure'
     cod_region = 'zoneAzure'
     gcp_keys = 'nlp_proyect/private_key.json'
+    task_3 = translate_blue(lang1_set, lang2_set, lang_from, lang_to, cod_key, cod_region, gcp_keys)
+    task_3.main()
+    print("-----------END------------")
