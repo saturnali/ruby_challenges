@@ -1,2 +1,2 @@
 #Import libraries
-from transformers import Au
+from transformers import Auto
