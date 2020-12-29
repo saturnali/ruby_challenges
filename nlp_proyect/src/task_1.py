@@ -1,2 +1,2 @@
 #Import libraries
-from transformers import Auto
+from transformers import AutoT
