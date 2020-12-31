@@ -1,2 +1,2 @@
 #Import libraries
-from transformers import AutoTok
+from transformers import AutoTokeniz
