@@ -1,2 +1,2 @@
 #Import libraries
-from transformers import AutoT
+from transformers import AutoTok
