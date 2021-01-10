@@ -1,2 +1,2 @@
 #Import libraries
-from transformers import AutoTokenizer, AutoM
+from transformers import AutoTokenizer, AutoMod
