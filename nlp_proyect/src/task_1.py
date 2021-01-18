@@ -1,2 +1,2 @@
 #Import libraries
-from transformers import AutoTokenizer, AutoModelForSequen
+from transformers import AutoTokenizer, AutoModelForSequence
