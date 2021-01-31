@@ -1,2 +1,2 @@
 #Import libraries
-from transformers import AutoTokenizer, AutoModelForSequenceClassification, pi
+from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipe
