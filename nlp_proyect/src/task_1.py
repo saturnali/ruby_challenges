@@ -1,4 +1,4 @@
 #Import libraries
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 
-class movie
+class movies_
