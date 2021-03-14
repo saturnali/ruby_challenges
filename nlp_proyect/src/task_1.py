@@ -2,4 +2,4 @@
 from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipeline
 
 class movies_reviews():
-    def __init_
+    def __init__(se
