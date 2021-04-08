@@ -4,4 +4,4 @@ from transformers import AutoTokenizer, AutoModelForSequenceClassification, pipe
 class movies_reviews():
     def __init__(self):
         #Preparing model and tokenizer
-        self.model =
+        self.model = A
