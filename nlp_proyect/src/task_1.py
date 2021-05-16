@@ -6,4 +6,4 @@ class movies_reviews():
         #Preparing model and tokenizer
         self.model = AutoModelForSequenceClassification.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
         self.tokenizer = AutoTokenizer.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
-        self.classif
+        self.classifier = 
