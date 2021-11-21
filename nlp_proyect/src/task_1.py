@@ -7,4 +7,5 @@ class movies_reviews():
         self.model = AutoModelForSequenceClassification.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
         self.tokenizer = AutoTokenizer.from_pretrained("cardiffnlp/twitter-roberta-base-sentiment")
         self.classifier = pipeline("sentiment-analysis", model = self.model, tokenizer = self.tokenizer)
-        self.dataset = 'nlp_proyect/tiny_movie_reviews_dataset.tx
+        self.dataset = 'nlp_proyect/tiny_movie_reviews_dataset.txt'
+
