@@ -9,4 +9,4 @@ class movies_reviews():
         self.classifier = pipeline("sentiment-analysis", model = self.model, tokenizer = self.tokenizer)
         self.dataset = 'nlp_proyect/tiny_movie_reviews_dataset.txt'
 
-    de
+    def 
