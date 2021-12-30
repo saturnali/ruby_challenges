@@ -10,3 +10,4 @@ class movies_reviews():
         self.dataset = 'nlp_proyect/tiny_movie_reviews_dataset.txt'
 
     def main(self):
+  
