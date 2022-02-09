@@ -11,4 +11,4 @@ class movies_reviews():
 
     def main(self):
         final_list = []
-        with open(se
+        with open(self.d
