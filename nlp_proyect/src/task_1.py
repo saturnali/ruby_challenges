@@ -11,4 +11,4 @@ class movies_reviews():
 
     def main(self):
         final_list = []
-        with open(self.d
+        with open(self.dat
