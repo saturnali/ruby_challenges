@@ -12,4 +12,4 @@ class movies_reviews():
     def main(self):
         final_list = []
         with open(self.dataset, 'r') as f:
-            reviews = f.re
+            reviews = f.readlin
