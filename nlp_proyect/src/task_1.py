@@ -13,3 +13,5 @@ class movies_reviews():
         final_list = []
         with open(self.dataset, 'r') as f:
             reviews = f.readlines()
+
+  
