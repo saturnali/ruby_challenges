@@ -14,4 +14,4 @@ class movies_reviews():
         with open(self.dataset, 'r') as f:
             reviews = f.readlines()
 
-        for i, review in enumerate(rev
+        for i, review in enumerate(revie
