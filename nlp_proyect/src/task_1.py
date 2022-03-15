@@ -15,3 +15,4 @@ class movies_reviews():
             reviews = f.readlines()
 
         for i, review in enumerate(reviews): 
+    
