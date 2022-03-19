@@ -16,3 +16,4 @@ class movies_reviews():
 
         for i, review in enumerate(reviews): 
             inputs = review
+  
