@@ -16,4 +16,4 @@ class movies_reviews():
 
         for i, review in enumerate(reviews): 
             inputs = review
-            output = self.classifier(inputs, max_length=51
+            output = self.classifier(inputs, max_length=512
