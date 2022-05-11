@@ -19,4 +19,4 @@ class movies_reviews():
             output = self.classifier(inputs, max_length=512, truncation=True)
             if output[0]['label'] == 'LABEL_0':
                 print("Review " + str(i) + ": " + "Negative")
-   
+     
