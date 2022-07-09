@@ -21,4 +21,4 @@ class movies_reviews():
                 print("Review " + str(i) + ": " + "Negative")
                 final_list.append("Negative")
             elif output[0]['label'] == 'LABEL_1':
-                print("Review " + str(i) + ": " + "Neutral
+                print("Review " + str(i) + ": " + "Neutral")
