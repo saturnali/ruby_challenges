@@ -11,3 +11,6 @@ class model_trainer():
 
       #samples of dataset
       self.samples_data_train = samples_data_train
+      self.samples_data_test = samples_data_test
+
+      #Loading dataset
