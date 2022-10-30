@@ -14,3 +14,6 @@ class model_trainer():
       self.samples_data_test = samples_data_test
 
       #Loading dataset
+      self.emotions = load_dataset("emotion")
+
+      #Data collator
