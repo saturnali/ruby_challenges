@@ -17,3 +17,6 @@ class model_trainer():
       self.emotions = load_dataset("emotion")
 
       #Data collator
+      self.data_collator = DefaultDataCollator(return_tensors="tf")
+
+      self.BATCH_SIZE = 8
