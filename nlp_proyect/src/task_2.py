@@ -20,3 +20,6 @@ class model_trainer():
       self.data_collator = DefaultDataCollator(return_tensors="tf")
 
       self.BATCH_SIZE = 8
+
+    def tokenize(self,rows):
+      return self.tokenizer(rows['text'], padding="max_length", truncation=True)
