@@ -29,3 +29,6 @@ class model_trainer():
       self.small_eval_dataset = data_set["test"].shuffle(seed=42).select([i for i in list(range(self.samples_data_test))])
 
     def tf_datasets(self):
+      self.tf_train_dataset = self.small_train_dataset.to_tf_dataset(
+          columns=["attention_mask", "input_ids"],
+          label_cols=["labels"],
