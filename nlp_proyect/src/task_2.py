@@ -27,3 +27,5 @@ class model_trainer():
     def split_dataset(self,data_set):
       self.small_train_dataset = data_set["train"].shuffle(seed=42).select([i for i in list(range(self.samples_data_train))])
       self.small_eval_dataset = data_set["test"].shuffle(seed=42).select([i for i in list(range(self.samples_data_test))])
+
+    def tf_datasets(self):
