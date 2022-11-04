@@ -32,3 +32,7 @@ class model_trainer():
       self.tf_train_dataset = self.small_train_dataset.to_tf_dataset(
           columns=["attention_mask", "input_ids"],
           label_cols=["labels"],
+          shuffle=True,
+          collate_fn=self.data_collator,
+          BATCH_SIZE=self.BATCH_SIZE,
+      )
