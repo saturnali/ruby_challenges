@@ -36,3 +36,5 @@ class model_trainer():
           collate_fn=self.data_collator,
           BATCH_SIZE=self.BATCH_SIZE,
       )
+
+      self.tf_validation_dataset = self.small_eval_dataset.to_tf_dataset(
