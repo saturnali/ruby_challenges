@@ -39,3 +39,4 @@ class model_trainer():
 
       self.tf_validation_dataset = self.small_eval_dataset.to_tf_dataset(
           columns=["attention_mask", "input_ids"],
+          label_cols=["labels"],
