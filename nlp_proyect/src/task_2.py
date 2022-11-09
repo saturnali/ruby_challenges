@@ -41,3 +41,9 @@ class model_trainer():
           columns=["attention_mask", "input_ids"],
           label_cols=["labels"],
           shuffle=False,
+          collate_fn=self.data_collator,
+          BATCH_SIZE=self.BATCH_SIZE,
+      )
+
+
+    def train_model(self):
