@@ -47,3 +47,7 @@ class model_trainer():
 
 
     def train_model(self):
+      self.model = TFAutoModelForSequenceClassification.from_pretrained(\
+                                                                        "distilbert-base-uncased", num_labels=6)
+      self.model.compile(
+        optimizer=tf.keras.optimizers.Adam(learning_rate=5e-5),
