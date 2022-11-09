@@ -51,3 +51,5 @@ class model_trainer():
                                                                         "distilbert-base-uncased", num_labels=6)
       self.model.compile(
         optimizer=tf.keras.optimizers.Adam(learning_rate=5e-5),
+        loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
+        metrics=tf.metrics.SparseCategoricalAccuracy(),
