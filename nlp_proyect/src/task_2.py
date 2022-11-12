@@ -54,3 +54,7 @@ class model_trainer():
         loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
         metrics=tf.metrics.SparseCategoricalAccuracy(),
         )
+
+      self.history = self.model.fit(self.tf_train_dataset, validation_data=self.tf_validation_dataset,epochs=5)
+      return self.model
+      
