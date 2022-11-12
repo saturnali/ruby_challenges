@@ -53,3 +53,4 @@ class model_trainer():
         optimizer=tf.keras.optimizers.Adam(learning_rate=5e-5),
         loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
         metrics=tf.metrics.SparseCategoricalAccuracy(),
+        )
