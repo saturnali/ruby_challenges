@@ -58,3 +58,9 @@ class model_trainer():
       self.history = self.model.fit(self.tf_train_dataset, validation_data=self.tf_validation_dataset,epochs=5)
       return self.model
       
+    
+    def main(self):
+      self.model_ckpt = "distilbert-base-uncased"
+      self.tokenizer = AutoTokenizer.from_pretrained(self.model_ckpt)
+      self.emotions.set_format(type=None)
+      self.tokenized_datasets = self.emotions.map(self.tokenize, batched=True)
