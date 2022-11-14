@@ -66,3 +66,6 @@ class model_trainer():
       self.tokenized_datasets = self.emotions.map(self.tokenize, batched=True)
       self.split_dataset(self.tokenized_datasets)
       self.tf_datasets()
+      self.modelh = self.train_model()
+
+    def graphic_model(self):
