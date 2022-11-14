@@ -65,3 +65,4 @@ class model_trainer():
       self.emotions.set_format(type=None)
       self.tokenized_datasets = self.emotions.map(self.tokenize, batched=True)
       self.split_dataset(self.tokenized_datasets)
+      self.tf_datasets()
