@@ -69,3 +69,4 @@ class model_trainer():
       self.modelh = self.train_model()
 
     def graphic_model(self):
+      plt.plot(self.history.history['loss'])
