@@ -70,3 +70,5 @@ class model_trainer():
 
     def graphic_model(self):
       plt.plot(self.history.history['loss'])
+      plt.plot(self.history.history['val_loss'])
+      plt.title('model loss')
