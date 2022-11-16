@@ -75,3 +75,6 @@ class model_trainer():
       plt.ylabel('loss')
       plt.xlabel('epoch')
       plt.legend(['train', 'val'], loc='upper left')
+      plt.show()
+
+      plt.plot(self.history.history['sparse_categorical_accuracy'])
