@@ -80,3 +80,5 @@ class model_trainer():
       plt.plot(self.history.history['sparse_categorical_accuracy'])
       plt.plot(self.history.history['val_sparse_categorical_accuracy'])
       plt.title('model accuracy')
+      plt.ylabel('accuracy')
+      plt.xlabel('epoch')
