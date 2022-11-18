@@ -82,3 +82,5 @@ class model_trainer():
       plt.title('model accuracy')
       plt.ylabel('accuracy')
       plt.xlabel('epoch')
+      plt.legend(['train', 'val'], loc='upper left')
+      plt.show()
