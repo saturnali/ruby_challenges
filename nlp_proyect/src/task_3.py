@@ -8,3 +8,6 @@ import os
 class translate_blue():
   def __init__(self, lang1_set, lang2_set, lang_from, lang_to, key_azure, region_azure, gcp_keys_json_name):
     self.lang1 = lang1_set
+    self.lang2 = lang2_set
+    self.lang_from = lang_from
+    self.lang_to = lang_to
