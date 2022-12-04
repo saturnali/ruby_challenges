@@ -11,3 +11,6 @@ class translate_blue():
     self.lang2 = lang2_set
     self.lang_from = lang_from
     self.lang_to = lang_to
+    self.cod_key = key_azure
+    self.cod_region = region_azure
+    self.gcp_keys_json_name = gcp_keys_json_name
