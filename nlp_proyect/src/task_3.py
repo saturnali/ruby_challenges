@@ -14,3 +14,9 @@ class translate_blue():
     self.cod_key = key_azure
     self.cod_region = region_azure
     self.gcp_keys_json_name = gcp_keys_json_name
+
+  def azure_translate(self,text):
+    # Add your key and endpoint
+    endpoint = "https://api.cognitive.microsofttranslator.com"
+
+    path = '/translate'
