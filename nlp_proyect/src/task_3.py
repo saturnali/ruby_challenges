@@ -20,3 +20,4 @@ class translate_blue():
     endpoint = "https://api.cognitive.microsofttranslator.com"
 
     path = '/translate'
+    constructed_url = endpoint + path
