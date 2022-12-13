@@ -23,3 +23,7 @@ class translate_blue():
     constructed_url = endpoint + path
 
     params = {
+        'api-version': '3.0',
+        'from': self.lang_from,
+        'to': self.lang_to
+    }
