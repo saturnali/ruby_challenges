@@ -21,3 +21,5 @@ class translate_blue():
 
     path = '/translate'
     constructed_url = endpoint + path
+
+    params = {
