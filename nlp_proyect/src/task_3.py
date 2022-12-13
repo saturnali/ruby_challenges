@@ -27,3 +27,6 @@ class translate_blue():
         'from': self.lang_from,
         'to': self.lang_to
     }
+
+    headers = {
+        'Ocp-Apim-Subscription-Key': self.cod_key,
