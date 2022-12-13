@@ -30,3 +30,5 @@ class translate_blue():
 
     headers = {
         'Ocp-Apim-Subscription-Key': self.cod_key,
+        # location required if you're using a multi-service or regional (not global) resource.
+        'Ocp-Apim-Subscription-Region': self.cod_region,
