@@ -32,3 +32,5 @@ class translate_blue():
         'Ocp-Apim-Subscription-Key': self.cod_key,
         # location required if you're using a multi-service or regional (not global) resource.
         'Ocp-Apim-Subscription-Region': self.cod_region,
+        'Content-type': 'application/json',
+        'X-ClientTraceId': str(uuid.uuid4())
