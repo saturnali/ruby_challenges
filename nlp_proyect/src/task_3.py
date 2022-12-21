@@ -34,3 +34,4 @@ class translate_blue():
         'Ocp-Apim-Subscription-Region': self.cod_region,
         'Content-type': 'application/json',
         'X-ClientTraceId': str(uuid.uuid4())
+    }
