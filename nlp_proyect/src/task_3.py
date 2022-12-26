@@ -35,3 +35,7 @@ class translate_blue():
         'Content-type': 'application/json',
         'X-ClientTraceId': str(uuid.uuid4())
     }
+
+    # You can pass more than one object in body.
+    body = [{
+        'text': text
