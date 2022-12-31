@@ -39,3 +39,4 @@ class translate_blue():
     # You can pass more than one object in body.
     body = [{
         'text': text
+    }]
