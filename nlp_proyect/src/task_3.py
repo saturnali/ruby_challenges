@@ -40,3 +40,6 @@ class translate_blue():
     body = [{
         'text': text
     }]
+
+    request = requests.post(constructed_url, params=params, headers=headers, json=body)
+    response = request.json()
