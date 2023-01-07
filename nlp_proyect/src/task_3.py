@@ -51,3 +51,7 @@ class translate_blue():
     client = translate_v2.Client()
     output = client.translate(text, self.lang_to)
     return output['translatedText']
+
+  def main(self):
+    points_gcp = []
+    points_azure = []
