@@ -47,3 +47,5 @@ class translate_blue():
     return response[0]["translations"][0]["text"]
 
   def gcp_translate(self,text):
+    os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = self.gcp_keys_json_name
+    client = translate_v2.Client()
