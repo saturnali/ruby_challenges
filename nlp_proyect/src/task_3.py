@@ -43,3 +43,7 @@ class translate_blue():
 
     request = requests.post(constructed_url, params=params, headers=headers, json=body)
     response = request.json()
+
+    return response[0]["translations"][0]["text"]
+
+  def gcp_translate(self,text):
