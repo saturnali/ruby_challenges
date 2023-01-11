@@ -55,3 +55,5 @@ class translate_blue():
   def main(self):
     points_gcp = []
     points_azure = []
+    with open(self.lang1, 'r') as f:
+      lang1 = f.readlines()
