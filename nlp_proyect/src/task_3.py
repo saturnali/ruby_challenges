@@ -60,3 +60,7 @@ class translate_blue():
 
     with open(self.lang2, 'r') as f:
       lang2 = f.readlines()
+
+    for i in range(len(lang1)):
+      output_azure = self.azure_translate(lang1[i])
+      #print(output_azure)
