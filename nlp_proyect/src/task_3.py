@@ -57,3 +57,6 @@ class translate_blue():
     points_azure = []
     with open(self.lang1, 'r') as f:
       lang1 = f.readlines()
+
+    with open(self.lang2, 'r') as f:
+      lang2 = f.readlines()
