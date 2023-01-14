@@ -64,3 +64,5 @@ class translate_blue():
     for i in range(len(lang1)):
       output_azure = self.azure_translate(lang1[i])
       #print(output_azure)
+      bleu_azure = sentence_bleu(lang2[i].split(), output_azure.split())
+      points_azure.append(bleu_azure)
