@@ -66,3 +66,5 @@ class translate_blue():
       #print(output_azure)
       bleu_azure = sentence_bleu(lang2[i].split(), output_azure.split())
       points_azure.append(bleu_azure)
+
+      output_gcp = self.gcp_translate(lang1[i])
