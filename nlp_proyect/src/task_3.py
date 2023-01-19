@@ -68,3 +68,4 @@ class translate_blue():
       points_azure.append(bleu_azure)
 
       output_gcp = self.gcp_translate(lang1[i])
+      #print(output_gcp)
