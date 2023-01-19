@@ -69,3 +69,4 @@ class translate_blue():
 
       output_gcp = self.gcp_translate(lang1[i])
       #print(output_gcp)
+      bleu_gcp = sentence_bleu(lang2[i].split(), output_gcp.split())
