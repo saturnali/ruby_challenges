@@ -71,3 +71,6 @@ class translate_blue():
       #print(output_gcp)
       bleu_gcp = sentence_bleu(lang2[i].split(), output_gcp.split())
       points_gcp.append(bleu_gcp)
+
+    print("BLEU Score GCP: " + str(statistics.mean(points_gcp)))
+    print("BLEU Score azure: " + str(statistics.mean(points_azure)))
