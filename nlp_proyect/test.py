@@ -9,3 +9,5 @@ answer_task1 = ['Negative', 'Positive', 'Positive', 'Negative', 'Negative', 'Pos
 def test_task1():
    #TEST TASK 1
     model = movies_reviews()
+    list = model.main()
+    assert list == answer_task1
