@@ -11,3 +11,6 @@ def test_task1():
     model = movies_reviews()
     list = model.main()
     assert list == answer_task1
+
+def test_task3():
+   #Test task 3
