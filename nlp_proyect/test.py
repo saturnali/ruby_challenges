@@ -15,3 +15,6 @@ def test_task1():
 def test_task3():
    #Test task 3
    lang1_set = 'nlp_proyect/en_corpus.txt'
+   lang2_set = 'nlp_proyect/es_corpus.txt'
+   lang_from = 'en'
+   lang_to = 'es'
