@@ -21,3 +21,4 @@ def test_task3():
    cod_key = 'c72e1edd13a1410785bef1c40dd6224e'
    cod_region = 'southcentralus'
    gcp_keys = 'nlp_proyect/clave.json'
+   model = translate_blue(lang1_set, lang2_set, lang_from, lang_to, cod_key, cod_region, gcp_keys)
