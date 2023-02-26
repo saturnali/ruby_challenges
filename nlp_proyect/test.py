@@ -23,3 +23,4 @@ def test_task3():
    gcp_keys = 'nlp_proyect/clave.json'
    model = translate_blue(lang1_set, lang2_set, lang_from, lang_to, cod_key, cod_region, gcp_keys)
    status = model.main()
+   assert status == 'Complete'
